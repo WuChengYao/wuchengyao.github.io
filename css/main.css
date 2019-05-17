@@ -153,8 +153,7 @@ main h3{
     .main_midd_1_1,
     .main_down_1_1,
     .main_down_2_1{
-        width: 100%;
-        height: 25vh;
+        height: 30vh;
     }
 }
 @media screen and (max-width:350px){
