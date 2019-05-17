@@ -153,10 +153,19 @@ main h3{
     .main_midd_1_1,
     .main_down_1_1,
     .main_down_2_1{
+        width:350px;
         height: 30vh;
     }
 }
 @media screen and (max-width:350px){
+    .main_top_1_1,
+    .main_top_2_1,
+    .main_midd_1_1,
+    .main_down_1_1,
+    .main_down_2_1{
+        width:200px;
+        height: 25vh;
+    }
     .main{
         padding-top: 6vh;
     }
