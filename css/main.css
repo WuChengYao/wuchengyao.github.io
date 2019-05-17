@@ -40,6 +40,9 @@
     padding: 5px 0 0 30px;
     text-shadow: 1px 1px 3px rgba(44, 255, 2, 0.527);
 }
+.main_h2 a{
+    text-decoration: none;
+} 
 .main_top,
 .main_midd{
     width: 100%;
