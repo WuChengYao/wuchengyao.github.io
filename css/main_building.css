@@ -18,6 +18,7 @@
     background-position: center;
     margin: 5px 5px 5px 5px;
     box-shadow: 1px 4px 5px rgb(3, 3, 3);
+    border-radius: 5px;
 }
 .main_all_1{
     background-image: url("../images/main_building/old1.jpg");
