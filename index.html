@@ -5,308 +5,426 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>新社莊園</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="css/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
-    <link rel="stylesheet" href="css/navbar_1.css">
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/marry_swiper.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <title>新的開始</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <button id="myBtn" class="none">Top</button>
     <!-- navbar -->
-    <nav class="navbar" id="navbar">
-        <div class="navbar_11">
-            <a href="#swiper">
-                <div class="logo"></div>
-            </a>
-            <!-- RWD漢堡條 -->
-            <div id="burger" class="burger">
-                <div id="burger_1" class="burgerbr burger_1"></div>
-                <div id="burger_2" class="burgerbr burger_2"></div>
-                <div id="burger_3" class="burgerbr burger_3"></div>
+    <div class="navbar_container">
+        <nav class="navbar container navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#memy">
+                            Resume
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_2">
+                            Photoshop
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_3">
+                            Illustrator
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_4">
+                            Web
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div id="burger_onin" class="burger_onin burger_onin_2">
-                <div class="burger_onin_1"><a href="#news">最新消息</a></div>
-                <div class="burger_onin_1"><a href="#main_h2">莊園導覽</a></div>
-                <div class="burger_onin_1"><a href="">交通指南</a></div>
-                <div class="burger_onin_1"><a href="">氣候諮詢</a></div>
-                <div class="burger_onin_1"><a href="">關於我們</a></div>
-                <div class="burger_onin_1"><a href="#marry">婚紗攝影</a></div>
-            </div>
-            <!-- 網頁版 -->
-            <div class="navbar_in">
-                <div class="navbar_in1"><a href="">最新消息</a>
-                    <div class="navbar_in1_1">
-                        <div class="nav_a"><a href="#news">活動</a></div>
-                        <div class="nav_a"><a href="#news">報導</a></div>
-                        <div class="nav_a"><a href="#news">其他</a></div>
-                    </div>
-                </div>
-                <div class="navbar_in2"><a href="">莊園導覽</a>
-                    <div class="navbar_in2_1">
-                        <div class="nav_a"><a href="#">地圖</a></div>
-                        <div class="nav_a"><a href="#">美景</a></div>
-                        <div class="nav_a"><a href="results/main_building.htm">建築</a></div>
-                        <div class="nav_a"><a href="#">餐廳</a></div>
-                    </div>
-                </div>
-                <div class="navbar_in3"><a href="#content">交通指南</a></div>
-                <div class="navbar_in4"><a href="https://www.cwb.gov.tw/V8/C/W/County/County.html?CID=66"
-                        target="_blank">氣候諮詢</a></div>
-                <div class="navbar_in5"><a href="">關於我們</a></div>
-                <div class="navbar_in6"><a href="#marry">婚紗攝影</a></div>
-            </div>
-            <div>
-                <a href="#marry">
-                    <div class="marry_logo"></div>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <div id="all">
-        <div class="swiper" id="swiper">
-            <!-- 輪播 -->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="slide slide1"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide slide2"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide slide3"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide slide4"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide slide5"></div>
-                    </div>
-                </div>
-                <!-- 輪播小點點 -->
-                <div class="swiper-pagination"></div>
-                <!-- 輪播左右選單icon -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
-        <!-- 莊園導覽 -->
-        <main class="main">
-            <div class="news" id="news">
-                <h2>最新消息</h2>
-                <div class="news_message">
-                    <div class="news_text">
-                        <div class="news_date"></div><a href="">免費開放參觀免費開放參觀免費開放參觀</a>
-                    </div>
-                    <div class="news_text">
-                        <div class="news_date"></div><a href="">免費開放參觀免費開放參觀免費開放參觀</a>
-                    </div>
-                    <div class="news_text">
-                        <div class="news_date"></div><a href="">免費開放參觀免費開放參觀免費開放參觀</a>
-                    </div>
-                    <div class="news_text">
-                        <div class="news_date"></div><a href="">免費開放參觀免費開放參觀免費開放參觀</a>
-                    </div>
-                    <div class="news_text">
-                        <div class="news_date"></div><a href="">免費開放參觀免費開放參觀免費開放參觀</a>
-                    </div>
-                </div>
-            </div>
-            <h2 class="main_h2" id="main_h2">莊園導覽</h2>
-            <div class="main_top">
-                <div class="main_top_1" data-aos="fade-up-right">
-                    <div class="main_top_1_1"></div>
-                    <div class="main_h3">
-                        <h3>地圖</h3>
-                    </div>
-                </div>
-                <div class="main_top_2" data-aos="fade-up-right">
-                    <a href="results/main_building.htm">
-                        <div class="main_top_2_1"></div>
-                    </a>
-                    <div class="main_h3">
-                        <h3>建築</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="main_midd">
-                <div class="main_midd_1" data-aos="flip-up">
-                    <div class="main_midd_1_1"></div>
-                    <div class="main_h3">
-                        <h3>美景</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="main_down">
-                <div class="main_down_1" data-aos="fade-down-right">
-                    <div class="main_down_1_1"></div>
-                    <div class="main_h3">
-                        <h3>六角餐廳</h3>
-                    </div>
-                </div>
-                <div class="main_down_2" data-aos="fade-down-right">
-                    <div class="main_down_2_1"></div>
-                    <div class="main_h3">
-                        <h3>酒莊餐廳</h3>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <!-- 交通指南 -->
-        <div class="content" id="content">
-            <div class="content_in">
-                <div class="content_inL" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                    <iframe class="content_inL_1"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.493584537146!2d120.81024165034756!3d24.18948698429807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691ece52eda309%3A0x15ee74a6ed194c42!2z5paw56S-6I6K5ZyS5Y-k5aCh!5e0!3m2!1szh-TW!2stw!4v1557326859832!5m2!1szh-TW!2stw"
-                        frameborder="0" style="border:0" allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="content_inR" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="content_inR_1">
-                        <div class="content_inR_title">衛星導航座標</div>
-                    </div>
-                    <div class="content_inR_2">
-                        <div>
-                            <h1>
-                                <a href="">
-                                    E120°47’47.6″
-                                    N 24°12’12.2″
-                                </a>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="content_inR_3">
-                        <div class="content_inR_title">自行開車</div>
-                    </div>
-                    <div class="content_inR_4">
-                        <div>
-                            <h1>
-                                <a href="">
-                                    國道1(3)號->國道4號(石岡方向)
-                                    ->下交流道後左轉台3線(豐勢路)
-                                    ->再循新社指標前行
-                                    ->再循新社莊園指標前行即可到達
-                                </a>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="content_inR_5">
-                        <div class="content_inR_title">全台計程車電話</div>
-                    </div>
-                    <div class="content_inR_6">
-                        <div>
-                            <h1>
-                                <a href="http://chaostec.com/taxi.htm" target="_blank">
-                                    請按我...
-                                </a>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 婚紗輪播圖 -->
-        <div class="marry" id="marry">
-            <div class="swiper" id="marry_swiper">
-                <!-- 輪播 -->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="slide marry_slide1"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slide marry_slide2"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slide marry_slide3"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slide marry_slide4"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slide marry_slide5"></div>
-                        </div>
-                    </div>
-                    <!-- 輪播小點點 -->
-                    <div class="swiper-pagination"></div>
-                    <!-- 輪播左右選單icon -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </div>
-            <div class="marry_text">
-                <a href="">
-                    <h1>
-                        留下<br>
-                        最美麗的<br>
-                        時刻....<br>
-                    </h1>
-                </a>
-            </div>
-        </div>
-        <footer id="footer" class="footer">
-            <div class="footer_rwd">
-                <div class="footer_logo"></div>
-                <div class="footer_main">
-                    <a href="">
-                        <p>最新消息</p>
-                    </a>
-                    <a href="">
-                        <p>莊園導覽</p>
-                    </a>
-                    <a href="">
-                        <p>莊園美食</p>
-                    </a>
-                    <a href="">
-                        <p>氣候諮詢</p>
-                    </a>
-                    <a href="">
-                        <p>交通指南</p>
-                    </a>
-                    <a href="">
-                        <p>門票查詢</p>
-                    </a>
-                </div>
-                <div class="footer_main2">
-                    <a href="">
-                        <p>沐心泉休閒農場</p>
-                    </a>
-                    <a href="">
-                        <p>安妮古堡花園</p>
-                    </a>
-                    <a href="">
-                        <p>薰衣草森林</p>
-                    </a>
-                    <a href="">
-                        <p>白冷圳</p>
-                    </a>
-                </div>
-                <div class="footer_main3">
-                    <p>本網站僅學術用</p>
-                    <p>如有侵權請來信告知</p>
-                    <p>jaster234@msn.com</p>
-                </div>
-            </div>
-        </footer>
+        </nav>
     </div>
+    <!-- swiper -->
+    <div class="swiper_container container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="w-100 h-100" src="images/swiper/Matte_Painting_1.jpg" alt="影像合成">
+                </div>
+                <div class="swiper-slide">
+                    <img class="w-100 h-100" src="images/swiper/room_Isometric_perspective_1.jpg" alt="透視圖">
+                </div>
+                <div class="swiper-slide">
+                    <img class="w-100 h-100" src="images/swiper/web.jpg" alt="網頁">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <!-- 個人簡介 -->
+    <section class="section_1">
+        <div class="container">
+            <div class="row">
+                <div id="memy" class="col-md-12 col-lg-5 col-xl-4 d-flex flex-column">
+                    <img class="w-100 p-2" src="images/my/mugshot.jpg" alt="吳承耀" title="吳承耀">
+                    <div class="w-100"></div>
+                </div>
+                <div class="mydata col-md-12 col-lg-7 col-xl-8">
+                    <div class="section_1_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h3>基本資料</h3>
+                                <p>&emsp;&emsp;中文姓名：吳承耀</p>
+                                <p>&emsp;&emsp;英文名字：WuChengYao</p>
+                                <p>&emsp;&emsp;性別：男</p>
+                                <p>&emsp;&emsp;兵役狀況：役畢</p>
+                                <p>&emsp;&emsp;出生日期：11月27日</p>
+                                <p>&emsp;&emsp;婚姻狀況：未婚</p>
+                                <h3>聯絡資料</h3>
+                                <p>&emsp;&emsp;E-mail：jaster234@msn.com</p>
+                                <p>&emsp;&emsp;聯絡電話：0963106821</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <h3>學歷</h3>
+                                <p>&emsp;&emsp;大華科技大學(台灣)</p>
+                                <p>&emsp;&emsp;電子工程(機械工程相關)大學</p>
+                                <h3>經歷</h3>
+                                <p>&emsp;&emsp;經歷1：助教/中興大學2019/10～2020/01</p>
+                                <p>&emsp;&emsp;經歷2：學員/中區職訓中心2019/03～2019/09</p>
+                                <p>&emsp;&emsp;經歷3：正技師/上銀科技2011/06～2018/11</p>
+                                <p>&emsp;&emsp;經歷4：憲兵領導士/職業軍人2006/07～2011/05</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <h3>擅長工具</h3>
+                                <p>&emsp;&emsp;Visual Studio Code</p>
+                                <p>&emsp;&emsp;Adobe Photoshop</p>
+                                <p>&emsp;&emsp;Adobe Illustrator</p>
+                                <h3>工作技能</h3>
+                                <p>&emsp;&emsp;HTML、CSS</p>
+                                <p>&emsp;&emsp;JavaScript-略懂</p>
+                                <p>&emsp;&emsp;jQuery-略懂</p>
+                                <p>&emsp;&emsp;Bootstrap-略懂</p>
+                                <p>&emsp;&emsp;php-接觸過</p>
+                                <p>&emsp;&emsp;MySQL-接觸過</p>
+                                <p>&emsp;&emsp;Laravel-會員系統&購物車(綠界金流)-略懂</p>
+                                <h3>證照資格</h3>
+                                <p>&emsp;&emsp;網頁設計丙級</p>
+                                <p>&emsp;&emsp;軟體應用乙級</p>
+                                <p>&emsp;&emsp;未滿3公噸固定式起重機</p>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Photoshop -->
+    <section id="section_2" class="section_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="images/Photoshop/a1.jpg" data-lightbox="image-1" data-title="影像合成-雪景">
+                            <div class="img_main">
+                                <img src="images/Photoshop/a1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    練習Matte Painting的小作品。
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="images/Photoshop/b2.jpg" data-lightbox="image-1" data-title="影像合成-廢墟">
+                            <div class="img_main">
+                                <img src="images/Photoshop/b1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    第一次Matte Painting的作品，很失敗。
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="images/Photoshop/c2.jpg" data-lightbox="image-1" data-title="影像合成-都是幻想">
+                            <div class="img_main">
+                                <img src="images/Photoshop/c1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    在一次偶然的靈感做出此作品。
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Illustrator -->
+    <section id="section_3" class="section_3">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-3 col-xl-3">
+                    <div class="card">
+                        <a href="images/Illustrator/a1.jpg" data-lightbox="image-1" data-title="口紅">
+                            <div class="img_main">
+                                <img src="images/Illustrator/a1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    鋼筆工具運用-1
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div class="card">
+                        <a href="images/Illustrator/b1.jpg" data-lightbox="image-1" data-title="影像描繪">
+                            <div class="img_main">
+                                <img src="images/Illustrator/b1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    鋼筆工具運用-1
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div class="card">
+                        <a href="images/Illustrator/c1.jpg" data-lightbox="image-1" data-title="建築">
+                            <div class="img_main">
+                                <img src="images/Illustrator/c1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    兩點透視-1
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div class="card">
+                        <a href="images/Illustrator/d1.jpg" data-lightbox="image-1" data-title="房間">
+                            <div class="img_main">
+                                <img src="images/Illustrator/d1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    兩點透視-1
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="images/Illustrator/e1.jpg" data-lightbox="image-1" data-title="名片-上益資訊">
+                            <div class="img_main">
+                                <img src="images/Illustrator/e2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    名片-上益資訊
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="images/Illustrator/CtrlF_1.jpg" data-lightbox="image-1" data-title="名片-Ctrl+F">
+                            <div class="img_main">
+                                <img src="images/Illustrator/CtrlF_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    名片-Ctrl+F
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="images/Illustrator/MAKE_UP_FOR_EVER_1.jpg" data-lightbox="image-1"
+                            data-title="名片-MAKE UP FOR EVER">
+                            <div class="img_main">
+                                <img src="images/Illustrator/MAKE_UP_FOR_EVER_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    名片-MAKE UP FOR EVER
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Web -->
+    <section id="section_4" class="section_4">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="https://wuchengyao.github.io/MyTest" target="_blank">
+                            <div class="img_main d-flex">
+                                <img src="images/web/my_1.jpg" class="card-img-top" alt="...">
+                                <img src="images/web/my_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    新社莊園
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="https://wuchengyao.github.io/FluentDesign/" target="_blank">
+                            <div class="img_main d-flex">
+                                <img src="images/web/FluentDesign_1.jpg" class="card-img-top" alt="...">
+                                <img src="images/web/FluentDesign_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    FluentDesign仿切
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="https://wuchengyao.github.io/msf/" target="_blank">
+                            <div class="img_main d-flex">
+                                <img src="images/web/microsoft_1.jpg" class="card-img-top" alt="...">
+                                <img src="images/web/microsoft_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Microsoft仿切
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="https://wuchengyao.github.io/MyTest" target="_blank">
+                            <div class="img_main d-flex">
+                                <img src="images/web/weather.jpg" class="card-img-top w-100" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    JavaScript串API天氣卡片
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="https://wuchengyao.github.io/FluentDesign/" target="_blank">
+                            <div class="img_main d-flex">
+                                <img src="images/web/Perpetual_Calendar_1.jpg" class="card-img-top" alt="...">
+                                <img src="images/web/Perpetual_Calendar_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    JavaScript萬年曆
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-4">
+                    <div class="card">
+                        <a href="https://wuchengyao.github.io/msf/" target="_blank">
+                            <div class="img_main d-flex">
+                                <img src="images/web/Guess_Number_Game_1.jpg" class="card-img-top" alt="...">
+                                <img src="images/web/Guess_Number_Game_2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    JavaScript簡單猜數字遊戲
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-center align-items-center">
+        <div class="declare">
+            <h3>以上都為個人處女練習作品及資料簡介</h3>
+        </div>
+    </footer>
 
-
-    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
     <script src="js/lightbox.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-    <script src="js/burger.js"></script>
-    <script src="js/Autoplay.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
+    <script src="js/index.js"></script>
     <script>
-        AOS.init();
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        var swiper = new Swiper('.section_1_swiper', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
     </script>
 </body>
 

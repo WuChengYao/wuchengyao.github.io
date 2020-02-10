@@ -1,0 +1,21 @@
+.navbar_container{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    .navbar{
+        a{
+            color: #fff;
+        }
+        .collapse{
+            ul{
+                li{
+                    .nav-link{
+                        color: #fff;
+                        &:hover{
+                            color: #eee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
