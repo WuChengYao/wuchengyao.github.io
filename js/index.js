@@ -2,8 +2,9 @@ var w = window
 var btn = document.querySelector('#myBtn')
 w.addEventListener('scroll', scrollHandler)
 btn.addEventListener('click', clickHandler)
-function scrollHandler(){
-if (
+
+function scrollHandler() {
+  if (
     document.documentElement.scrollTop > 20
   ) {
     btn.classList.add('block')
@@ -13,6 +14,15 @@ if (
     btn.classList.add('none')
   }
 }
-function clickHandler(){
+
+function clickHandler() {
   document.documentElement.scrollTop = 0;
 }
+
+var navbar_collapse = document.querySelector('.navbar-collapse');
+var nav_items = navbar_collapse.querySelectorAll('.nav-item');
+nav_items.forEach(nav_item => {
+  nav_item.onclick = function () {
+    navbar_collapse.classList.remove('show')
+  }
+});
