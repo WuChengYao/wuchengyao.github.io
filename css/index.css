@@ -245,4 +245,24 @@ footer .declare h3 {
   letter-spacing: 6px;
   text-shadow: -1px -1px 0px red;
 }
+
+@media (max-width: 768px) {
+  footer .declare h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .declare h3 {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 375px) {
+  footer .declare h3 {
+    letter-spacing: 1px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
