@@ -42,9 +42,16 @@ section {
   padding-top: 56px;
 }
 
+section h3 {
+  color: #000;
+  font-weight: bold;
+}
+
 .navbar_container {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0;
 }
 
 .navbar_container .navbar a {
