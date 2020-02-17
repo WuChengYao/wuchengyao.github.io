@@ -307,6 +307,12 @@
   font-size: 22px;
 }
 
+@media (max-width: 768px) {
+  #testimonials2-a .container .media-container-row .media-content .section_1_swiper .swiper-wrapper .swiper-slide p {
+    font-size: 20px;
+  }
+}
+
 #testimonials2-a .container .media-container-row .media-content .section_1_swiper .swiper-wrapper .swiper-slide:nth-child(2) {
   padding-right: 0;
 }
