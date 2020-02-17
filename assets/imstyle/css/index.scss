@@ -1,0 +1,284 @@
+// navbar
+#menu1-8 {
+    .navbar-caption-wrap {
+        position: relative;
+
+        .box {
+            width: 40px;
+            height: 40px;
+            background: radial-gradient(rgb(0, 0, 255), rgb(169, 169, 248));
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgb(65, 65, 250);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -20px 0 0 -20px;
+            animation: box 10s linear infinite;
+
+            .box_inall {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -25px 0 0 -25px;
+
+                &.boX_in1 {
+                    border: 2px solid rgb(255, 0, 0);
+                    animation: boxchen 11s linear infinite;
+
+                    @keyframes boxchen {
+                        0% {
+                            transform: rotate3d(0);
+                            box-shadow: 0 0 1px rgb(255, 255, 255);
+                        }
+
+                        50% {
+                            transform: rotate3d(0, 1, 1, 6.284rad);
+                            box-shadow: 0 0 30px rgb(255, 255, 255);
+                        }
+
+                        100% {
+                            transform: rotate3d(0);
+                            box-shadow: 0 0 1px rgb(255, 255, 255);
+                        }
+                    }
+                }
+
+                &.boX_in2 {
+                    border: 2px solid rgb(255, 0, 0);
+                    animation: boxchen_r 14s linear infinite;
+
+                    @keyframes boxchen_r {
+                        0% {
+                            transform: rotate3d(0);
+                            box-shadow: 0 0 1px rgb(255, 255, 255);
+                        }
+
+                        25% {
+                            transform: rotate3d(0, 1, 1, 3.142rad);
+                        }
+
+                        50% {
+                            transform: rotate3d(0, 1, 1, 6.284rad);
+                            box-shadow: 0 0 30px rgb(255, 255, 255);
+                        }
+
+                        75% {
+                            transform: rotate3d(0, -1, -1, 3.142rad);
+                        }
+
+                        100% {
+                            transform: rotate3d(0);
+                            box-shadow: 0 0 1px rgb(255, 255, 255);
+                        }
+                    }
+                }
+
+                &.boX_in3 {
+                    border: 2px solid rgb(255, 0, 0);
+                    animation: boxchen_y 17s linear infinite;
+
+                    @keyframes boxchen_y {
+                        0% {
+                            transform: rotate3d(0);
+                            box-shadow: 0 0 1px rgb(255, 255, 255);
+                        }
+
+                        50% {
+                            transform: rotate3d(0, -1, -1, -6.284rad);
+                            box-shadow: 0 0 30px rgb(255, 255, 255);
+                        }
+
+                        100% {
+                            transform: rotate3d(0);
+                            box-shadow: 0 0 1px rgb(255, 255, 255);
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .box_min {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -9px 0 0 -9px;
+
+            &.bomin_1 {
+                border: 1px solid rgb(255, 255, 0);
+                animation: boxchen 3s linear infinite;
+
+                @keyframes boxchen {
+                    0% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
+
+                    50% {
+                        transform: rotate3d(0, 1, 1, 6.284rad);
+                        box-shadow: 0 0 30px rgb(255, 255, 255);
+                    }
+
+                    100% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
+                }
+            }
+
+            &.bomin_2 {
+                border: 1px solid rgb(255, 255, 0);
+                animation: boxchen_r 6s linear infinite;
+
+                @keyframes boxchen_r {
+                    0% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
+
+                    25% {
+                        transform: rotate3d(0, 1, 1, 3.142rad);
+                    }
+
+                    50% {
+                        transform: rotate3d(0, 1, 1, 6.284rad);
+                        box-shadow: 0 0 30px rgb(255, 255, 255);
+                    }
+
+                    75% {
+                        transform: rotate3d(0, -1, -1, 3.142rad);
+                    }
+
+                    100% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
+                }
+            }
+
+            &.bomin_3 {
+                border: 1px solid rgb(255, 255, 0);
+                animation: boxchen_y 9s linear infinite;
+
+                @keyframes boxchen_y {
+                    0% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
+
+                    50% {
+                        transform: rotate3d(0, -1, -1, -6.284rad);
+                        box-shadow: 0 0 30px rgb(255, 255, 255);
+                    }
+
+                    100% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// my
+#header2-9 {
+    background-image: url('../../images/my/my_bg.jpg');
+}
+
+#testimonials2-a {
+    .container {
+        .media-container-row {
+            .media-content {
+                position: relative;
+                overflow: hidden;
+
+                .section_1_swiper {
+
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            padding: 10px 25px;
+
+                            h3 {
+                                font-weight: bold;
+                            }
+
+                            p {
+                                font-size: 22px;
+                            }
+                        }
+
+                        .swiper-slide:nth-child(2) {
+                            padding-right: 0;
+
+                            P {
+                                letter-spacing: -0.5px;
+
+                                @media (max-width:768px) {
+                                    letter-spacing: -1.5px;
+                                }
+                            }
+                        }
+
+                        .swiper-slide:nth-child(3) {
+                            P {
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                    .swiper-button-next {
+                        right: 0;
+                    }
+
+                    .swiper-button-prev {
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Photoshop
+#header2-b {
+    background-image: url('../../images/Photoshop/c1.jpg');
+}
+
+// Illustrator
+#header2-d {
+    background-image: url('../../images/Illustrator/CtrlF_2.jpg');
+
+    @media (max-width:768px) {
+        background-image: url('../../images/Illustrator/MAKE_UP_FOR_EVER_1.jpg');
+    }
+}
+
+// Web
+#header2-c {
+    background-image: url('../../images/myweb/my_1.jpg');
+}
+
+#features3-j {
+    .container {
+        .media-container-row {
+            .card {
+                .card-wrapper {
+                    .card-img {
+                        display: flex;
+
+                        .card-img-top {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
