@@ -49,7 +49,7 @@
   margin: -25px 0 0 -25px;
 }
 
-#menu1-8 .navbar-caption-wrap .box .box_inall.boX_in1 {
+#menu1-8 .navbar-caption-wrap .box .boX_in1 {
   border: 2px solid red;
   -webkit-animation: boxchen 10s linear infinite;
           animation: boxchen 10s linear infinite;
@@ -97,7 +97,7 @@
   }
 }
 
-#menu1-8 .navbar-caption-wrap .box .box_inall.boX_in2 {
+#menu1-8 .navbar-caption-wrap .box .boX_in2 {
   border: 2px solid red;
   -webkit-animation: boxchen_r 14s linear infinite;
           animation: boxchen_r 14s linear infinite;
@@ -161,7 +161,7 @@
   }
 }
 
-#menu1-8 .navbar-caption-wrap .box .box_inall.boX_in3 {
+#menu1-8 .navbar-caption-wrap .box .boX_in3 {
   border: 2px solid red;
   -webkit-animation: boxchen_y 18s linear infinite;
           animation: boxchen_y 18s linear infinite;

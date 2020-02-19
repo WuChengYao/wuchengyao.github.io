@@ -33,78 +33,78 @@
                 top: 50%;
                 left: 50%;
                 margin: -25px 0 0 -25px;
+            }
 
-                &.boX_in1 {
-                    border: 2px solid rgb(255, 0, 0);
-                    animation: boxchen 10s linear infinite;
+            .boX_in1 {
+                border: 2px solid rgb(255, 0, 0);
+                animation: boxchen 10s linear infinite;
 
-                    @keyframes boxchen {
-                        0% {
-                            transform: rotate3d(0);
-                            box-shadow: 0 0 1px rgb(255, 255, 255);
-                        }
+                @keyframes boxchen {
+                    0% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
 
-                        50% {
-                            transform: rotate3d(0, 1, 1, 6.284rad);
-                            box-shadow: 0 0 30px rgb(255, 255, 255);
-                        }
+                    50% {
+                        transform: rotate3d(0, 1, 1, 6.284rad);
+                        box-shadow: 0 0 30px rgb(255, 255, 255);
+                    }
 
-                        100% {
-                            transform: rotate3d(0);
-                            box-shadow: 0 0 1px rgb(255, 255, 255);
-                        }
+                    100% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
                     }
                 }
+            }
 
-                &.boX_in2 {
-                    border: 2px solid rgb(255, 0, 0);
-                    animation: boxchen_r 14s linear infinite;
+            .boX_in2 {
+                border: 2px solid rgb(255, 0, 0);
+                animation: boxchen_r 14s linear infinite;
 
-                    @keyframes boxchen_r {
-                        0% {
-                            transform: rotate3d(0);
-                            box-shadow: 0 0 1px rgb(255, 255, 255);
-                        }
+                @keyframes boxchen_r {
+                    0% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
 
-                        25% {
-                            transform: rotate3d(0, 1, 1, 3.142rad);
-                        }
+                    25% {
+                        transform: rotate3d(0, 1, 1, 3.142rad);
+                    }
 
-                        50% {
-                            transform: rotate3d(0, 1, 1, 6.284rad);
-                            box-shadow: 0 0 30px rgb(255, 255, 255);
-                        }
+                    50% {
+                        transform: rotate3d(0, 1, 1, 6.284rad);
+                        box-shadow: 0 0 30px rgb(255, 255, 255);
+                    }
 
-                        75% {
-                            transform: rotate3d(0, -1, -1, 3.142rad);
-                        }
+                    75% {
+                        transform: rotate3d(0, -1, -1, 3.142rad);
+                    }
 
-                        100% {
-                            transform: rotate3d(0);
-                            box-shadow: 0 0 1px rgb(255, 255, 255);
-                        }
+                    100% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
                     }
                 }
+            }
 
-                &.boX_in3 {
-                    border: 2px solid rgb(255, 0, 0);
-                    animation: boxchen_y 18s linear infinite;
+            .boX_in3 {
+                border: 2px solid rgb(255, 0, 0);
+                animation: boxchen_y 18s linear infinite;
 
-                    @keyframes boxchen_y {
-                        0% {
-                            transform: rotate3d(0);
-                            box-shadow: 0 0 1px rgb(255, 255, 255);
-                        }
+                @keyframes boxchen_y {
+                    0% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
+                    }
 
-                        50% {
-                            transform: rotate3d(0, -1, -1, -6.284rad);
-                            box-shadow: 0 0 30px rgb(255, 255, 255);
-                        }
+                    50% {
+                        transform: rotate3d(0, -1, -1, -6.284rad);
+                        box-shadow: 0 0 30px rgb(255, 255, 255);
+                    }
 
-                        100% {
-                            transform: rotate3d(0);
-                            box-shadow: 0 0 1px rgb(255, 255, 255);
-                        }
+                    100% {
+                        transform: rotate3d(0);
+                        box-shadow: 0 0 1px rgb(255, 255, 255);
                     }
                 }
             }
