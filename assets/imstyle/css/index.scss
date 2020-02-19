@@ -15,6 +15,16 @@
             margin: -20px 0 0 -20px;
             animation: box 10s linear infinite;
 
+            @keyframes box {
+                from {
+                    box-shadow: 0 0 20px rgb(65, 65, 250)
+                }
+
+                to {
+                    box-shadow: 0 0 100px rgb(65, 65, 250)
+                }
+            }
+
             .box_inall {
                 width: 50px;
                 height: 50px;
@@ -26,7 +36,7 @@
 
                 &.boX_in1 {
                     border: 2px solid rgb(255, 0, 0);
-                    animation: boxchen 11s linear infinite;
+                    animation: boxchen 10s linear infinite;
 
                     @keyframes boxchen {
                         0% {
@@ -78,7 +88,7 @@
 
                 &.boX_in3 {
                     border: 2px solid rgb(255, 0, 0);
-                    animation: boxchen_y 17s linear infinite;
+                    animation: boxchen_y 18s linear infinite;
 
                     @keyframes boxchen_y {
                         0% {
@@ -112,9 +122,9 @@
 
             &.bomin_1 {
                 border: 1px solid rgb(255, 255, 0);
-                animation: boxchen 3s linear infinite;
+                animation: boxchen_in 2s linear infinite;
 
-                @keyframes boxchen {
+                @keyframes boxchen_in {
                     0% {
                         transform: rotate3d(0);
                         box-shadow: 0 0 1px rgb(255, 255, 255);
@@ -134,9 +144,9 @@
 
             &.bomin_2 {
                 border: 1px solid rgb(255, 255, 0);
-                animation: boxchen_r 6s linear infinite;
+                animation: boxchen_in_r 4s linear infinite;
 
-                @keyframes boxchen_r {
+                @keyframes boxchen_in_r {
                     0% {
                         transform: rotate3d(0);
                         box-shadow: 0 0 1px rgb(255, 255, 255);
@@ -164,9 +174,9 @@
 
             &.bomin_3 {
                 border: 1px solid rgb(255, 255, 0);
-                animation: boxchen_y 9s linear infinite;
+                animation: boxchen_in_y 6s linear infinite;
 
-                @keyframes boxchen_y {
+                @keyframes boxchen_in_y {
                     0% {
                         transform: rotate3d(0);
                         box-shadow: 0 0 1px rgb(255, 255, 255);
@@ -211,6 +221,7 @@
 
                             p {
                                 font-size: 22px;
+
                                 @media (max-width:768px) {
                                     font-size: 16px;
                                 }
